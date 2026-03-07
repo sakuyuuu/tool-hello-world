@@ -1,7 +1,17 @@
 import streamlit as st
 st.set_page_config(page_title="失業保険 計算ツール【2026年最新】", page_icon="💰")
 
-st.markdown('<meta name="google-site-verification" content="lPwzXiM6si21AlWWtB_s3rN1kl7NIgDVJXDgkOAbxA0" />', unsafe_allow_html=True)
+st.markdown('''
+<meta name="google-site-verification" content="lPwzXiM6si21AlWWtB_s3rN1kl7NIgDVJXDgkOAbxA0" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7KFSFCB33J"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-7KFSFCB33J');
+</script>
+''', unsafe_allow_html=True)
 
 st.title("💰 失業保険 給付額 計算ツール")
 st.caption("2026年最新版｜3項目を入力するだけで給付額を即診断")
